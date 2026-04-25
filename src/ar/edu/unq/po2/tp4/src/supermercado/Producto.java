@@ -4,14 +4,13 @@ import java.util.ArrayList;
 
 public class Producto {
     private String nombre;
-    public boolean esPrecioCuidado;
-    public Double precio;
+    private boolean esPrecioCuidado;
+    private Double precio;
 
     public Producto (String nombre, boolean esPrecioCuidado, Double precio){
         this.nombre = nombre;
         this.esPrecioCuidado = esPrecioCuidado;
         this.precio = precio;
-
     }
 
     public Double getPrecio(){

@@ -10,7 +10,7 @@ public class ProductoPrimeraNecesidad extends Producto {
     @Override
     public Double getPrecio() {
         // Accedemos al precio que heredamos y lo multiplicamos por 0.9
-        return this.precio * 0.9;
+        return super.getPrecio() * 0.9;
     }
 }
 
