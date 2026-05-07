@@ -1,4 +1,4 @@
-package tp5.CajaTest;
+package ar.edu.unq.po2.tp5CajaTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
